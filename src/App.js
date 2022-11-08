@@ -12,6 +12,7 @@ export const ACTIONS = {
 };
 
 function reducer(state, { type, payload }) {
+  /*eslint-disable */
   switch (type) {
     case ACTIONS.ADD_DIGIT:
       if (state.overwrite) {
